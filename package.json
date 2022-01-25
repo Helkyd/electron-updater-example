@@ -26,11 +26,19 @@
       "target": "nsis"
     },
     "nsis": {
-      "oneClick": false
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+      
     },
     "linux": {
       "category": "your.app.category.type",
       "target": "AppImage"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "Helkyd",
+      "repo": "electron-updater-example"
     }
   }
 }
